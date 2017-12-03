@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 /*END OF CSS RESET*/
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
 .left {
   /*background: url('https://static.pexels.com/photos/157920/woman-face-curly-hair-157920.jpeg');*/
   background-image:
@@ -62,6 +65,11 @@ table {
   width: 50%;
   float: left;
   z-index: 99;
+}
+.lnr-leaf {
+  color: #9FCC2E;
+  font-size: 30px;
+  padding: 0 1% 0 2%;
 }
 .left h1 {
   background: #D7DAE5;
@@ -84,12 +92,18 @@ table {
   background: #F8F1FF;
 }
 .right h3 {
-  color: #266DD3;
+  color: #D7DAE5;
   font-size: 5em;
   line-height: 7;
   /*margin-left: -50%;*/
   text-align: center;
   /*width: 150%;*/
   z-index: 98;
-
+}
+p{
+  color: #272D2D;
+  font-size: 2em;
+  font-weight: 100;
+  margin-top: 5%;
+  text-align: center;
 }
